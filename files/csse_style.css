@@ -47,6 +47,13 @@ h2.documents_you_may_need:before
 	padding-right: 1em;
 }
 
+h2.a
+{
+  text-decoration: none;
+  color: #e68a00;
+  border-bottom: none;
+}      
+     
 /* -- Basic markup and text styles -- */
 
 p {  
