@@ -1,0 +1,125 @@
+/* CSS for Solution Explorer info sheets in iframes */
+/* written by Tanja Rosteck, May 5, 2017 */
+
+/* -- Page layout -- */
+
+body {
+  margin: 1.5em;
+  padding: 0px;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  font-size: 1em;
+  background-color: #FFFFFF;
+}
+
+
+/* -- Containers -- */
+
+#description {
+  font-size: 0.95em;
+  font-style: italic;
+  text-align: center;
+  color: #737373;
+}
+
+.indented { 
+  text-align: left;
+  margin-left: 4em;
+  color: #0d0d0d;
+}
+
+/* -- Level 2 headers with icons -- */
+
+h2.what_you_should_know:before
+{
+	content: url('icon_info.png');
+	padding-right: 1em;
+}
+
+h2.what_you_can_do:before
+{
+	content: url('icon_checkmark.png');
+	padding-right: 1em;
+}
+
+h2.documents_you_may_need:before
+{
+	content: url('icon_documents.png');
+	padding-right: 1em;
+}
+
+/* -- Basic markup and text styles -- */
+
+p {  
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+a {  
+  text-decoration: none;
+  color: #001eff;
+  border-bottom: 1px solid #AAA;
+}
+
+a:hover {
+  color: #FFFF99;
+  background-color: #888;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+h1
+{
+   font-size: 200%;
+   padding: 4px;
+   text-align: center;
+   color: #145a80;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: normal;
+   font-style: normal;
+   letter-spacing: 1.2px;
+}
+
+h2 {
+   padding-top: 2em;
+   margin-right: 2em;
+   margin-bottom: 1.5em;
+   border-bottom: 1px dotted #145a80;
+   text-align: left;
+   color: #e68a00;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 130%;
+   font-style: italic;
+   font-weight: bold;
+   letter-spacing: 1.2px;
+   line-height: 1.6em;
+}
+
+h3 {
+   margin-left: 0;
+   padding-top: 1.2em;
+   color: #111;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 110%;
+   font-style: italic;
+   font-weight: bold;
+}
+
+
+
+/* -- List styles -- */
+
+li {
+  line-height: 1.6em;
+  padding: 3px 0;
+}
+
+/* -- Footer -- */
+
+#footer {
+  margin: 10%q;
+  padding: 1.2em;
+  border-top: 1px solid #00478F;
+  font-size: .6em;
+  text-align: center;
+}
+
+/* end */
